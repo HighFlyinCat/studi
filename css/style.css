@@ -175,3 +175,10 @@ h3 {
     background-color: #38CF92;   
     color: #FFF;
 }
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
