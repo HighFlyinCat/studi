@@ -1,5 +1,3 @@
-bootstrapsite
-=============
-This is just a test
+Studi
 
-k? <3
+This is just a test site, seeing how things turn out :)
