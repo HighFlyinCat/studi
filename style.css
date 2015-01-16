@@ -1,0 +1,177 @@
+.shadow {
+
+	border-color: #EEE;
+	margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.shadow2 {
+
+	border-color: #EEE;
+
+}
+
+.nav {
+    margin-top: 15px;
+
+}
+
+.nav ul {
+	list-style-type: none;
+}
+
+.nav li {
+	display: inline;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 25px;
+}
+
+.nav a {
+	color: #000;
+	font-family: 'Roboto Light';
+}
+
+h1 {
+	font-family: 'Segoe UI Light';
+}
+
+
+
+/** Start of hover effect **/ 
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI';
+    outline: none;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+	color: #8FF041;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+/** End of hover effect **/
+
+.download {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: solid 3px #38CF92;
+    color: #000;
+    font-family: 'Roboto Light';
+    font-size: 30px;
+    outline:0;
+}
+
+.download:hover {
+    background-color: #38CF92;
+    border-radius: 10px;
+}
+
+.download p {
+    margin-bottom: -10px;   
+}
+
+p {
+    font-family: 'Roboto';   
+}
+
+h1 {
+    font-family: 'Roboto Light';   
+}
+
+h3 {
+    font-family: 'Roboto Light';   
+}
+
+.logo {
+    padding: 40px;
+    border: solid 3px #38CF92;
+    border-radius: 1000px;
+    color: #38CF92;
+    font-size: 300px;
+    margin-bottom: 20px;
+}
+
+.logo:hover {
+    background-color: #38CF92;   
+    color: #FFF;
+}
+
+.logo2 {
+    padding: 40px;
+    border: solid 3px #38CF92;
+    border-radius: 1000px;
+    color: #38CF92;
+    font-size: 300px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 20px;
+}
+
+.logo2:hover {
+    background-color: #38CF92;   
+    color: #FFF;
+}
